@@ -9,15 +9,15 @@
 ### Classify the runtimes of each of the following functions:
 
 **A. Problem One**
-
+'''
 def foo(n):
     sq_root = int(math.sqrt(n))
     for i in range(0, sq_root):
         print(i)
-
+'''
 
 **B. Problem Two**
-
+'''
 def bar(x):
     sum = 0
     for i in range(0, 1463):
@@ -25,10 +25,10 @@ def bar(x):
         for j in range(0, x):
                 for k in range(x, x + 15):
                     sum += 1
-
+'''
 
 **C. Problem Three**
-
+'''
 def baz(array):
     print(array[1])
     midpoint = len(array) // 2
@@ -36,22 +36,25 @@ def baz(array):
         print(array[i])
     for _ in range(1000):
         print('hi')
-
+'''
 
 ### Do both of these functions have the same runtime? (Notice the difference between their inputs)
 
 **A.**
+'''
 def make_num_pairs(n):
     for num_one in range(n):
         for num_two in range(n):
             print(num_one, num_two)
+'''
 
 **B.**
+'''
 def make_item_pairs(items):
     for item_one in items:
         for item_two in items:
             print(item_one, item_two)
-
+'''
 
 ## Objective challenge:
 
