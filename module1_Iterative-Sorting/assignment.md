@@ -3,6 +3,7 @@
 ### Classify the run times of each of the following scenarios:
 
 **A.** You are searching for a specific name in a phone book (that is sorted alphabetically).
+
 **B.** You meet someone, and they give you their phone number. You realize later that you forgot their name! To match their number with a name, you look through a phone book until you find their phone number.
 
 
