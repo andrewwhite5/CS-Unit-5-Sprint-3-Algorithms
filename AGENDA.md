@@ -10,3 +10,12 @@
 - sorting data
 - looking at insertion sort
 - Wrap up
+
+## Recursive Sorting
+-
+
+## First-Pass Solution
+-
+
+## Writing Better Solutions
+-
