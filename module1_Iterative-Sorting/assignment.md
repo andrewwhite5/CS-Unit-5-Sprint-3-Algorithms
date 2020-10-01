@@ -66,21 +66,21 @@ Suppose your app has 16,384 users that are stored in a database (the users are s
 ## Objective challenge:
 What will the contents of the array that is shown below look like after each pass of the Selection Sort algorithm?
 
-!(https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
+![](https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
 
 **Define your own function that sorts the data “out-of-place” and mirrors the process we used for our “out-of-place” book sorting example. Compare this “out-of-place” selection sort to the “in-place” function that we defined together.**
 - What is different about it?
 - Which version do you think is better and why?
 - What will the contents of the same array look like after each pass of the Insertion Sort algorithm?
 
-!(https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
+![](https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
 
 
 **You have the cards 2, 7, 3, 4, and 6.**
 - Write an algorithm in pseudo-code that arranges the cards in ascending order.
 - What will the contents of the array below look like after each pass of the Bubble Sort algorithm?
 
-!(https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
+![](https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
 
 
 **What would the following array look like after one iteration of Bubble Sort?**
