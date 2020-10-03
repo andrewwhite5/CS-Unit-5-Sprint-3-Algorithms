@@ -92,6 +92,7 @@ What will the contents of the array that is shown below look like after each pas
 
 ![](https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
 
+**Answer**
 **Define your own function that sorts the data “out-of-place” and mirrors the process we used for our “out-of-place” book sorting example. Compare this “out-of-place” selection sort to the “in-place” function that we defined together.**
 - What is different about it?
 - Which version do you think is better and why?
