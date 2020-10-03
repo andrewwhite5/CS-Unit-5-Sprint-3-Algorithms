@@ -74,6 +74,7 @@ def make_item_pairs(items):
             print(item_one, item_two)
 ```
 
+**Answer**
 **No. Option A has a shorter runtime, because n in this scenario is used as a range rather than iterating through a list of items.**
 
 
@@ -92,7 +93,8 @@ What will the contents of the array that is shown below look like after each pas
 
 ![](https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
 
-**Answer**
+![](https://github.com/andrewwhite5/CS-Unit-5-Sprint-3-Algorithms/blob/master/module1_Iterative-Sorting/Resources/module1_image1.png)
+
 **Define your own function that sorts the data “out-of-place” and mirrors the process we used for our “out-of-place” book sorting example. Compare this “out-of-place” selection sort to the “in-place” function that we defined together.**
 - What is different about it?
 - Which version do you think is better and why?
