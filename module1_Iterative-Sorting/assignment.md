@@ -13,9 +13,14 @@ O(n)
 **A. Problem One**
 ```
 def foo(n):
-    sq_root = int(math.sqrt(n))
-    for i in range(0, sq_root):  # O(1)
+    sq_root = int(math.sqrt(n))  # O(1)
+    for i in range(0, sq_root):  # O(n)
         print(i)
+
+'''
+O(n) * O(1) = O(n)
+O(n)
+'''
 ```
 
 **B. Problem Two**
@@ -28,10 +33,10 @@ def bar(x):
                 for k in range(x, x + 15):  # O(n)
                     sum += 1
 
-    '''
-    O(n) * O(n) * O(n) = O(n * n * n) = O(n^3)
-    O(n^2)
-    '''
+'''
+O(n) * O(n) * O(n) = O(n * n * n) = O(n^3)
+O(n^2)
+'''
 ```
 
 **C. Problem Three**
