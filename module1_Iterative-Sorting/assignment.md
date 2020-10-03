@@ -27,10 +27,10 @@ O(n)
 ```
 def bar(x):
     sum = 0
-    for i in range(0, 1463):  # O(n)
+    for i in range(0, 1463):  # O(1)
         i += 1
         for j in range(0, x):  # O(n)
-                for k in range(x, x + 15):  # O(n)
+                for k in range(x, x + 15):  # O(1)
                     sum += 1
 
 '''
@@ -46,11 +46,11 @@ def baz(array):
     midpoint = len(array) // 2  # O(1)
     for i in range(0, midpoint):  # O(n)
         print(array[i])  # O(1)
-    for _ in range(1000):  # O(n)
+    for _ in range(1000):  # O(1)
         print('hi')  # O(1)
 
 '''
-O(1) + O(1) + (O(n) * O(1)) + (O(n) * O(1))
+O(1) + O(1) + (O(n) * O(1)) + (O(1) * O(1))
 O(1) + O(1) + O(n) + O(n)
 O(n)
 '''
