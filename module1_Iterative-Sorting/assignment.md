@@ -42,12 +42,18 @@ O(n^2)
 **C. Problem Three**
 ```
 def baz(array):
-    print(array[1])
-    midpoint = len(array) // 2
-    for i in range(0, midpoint):
-        print(array[i])
-    for _ in range(1000):
-        print('hi')
+    print(array[1])  # O(1)
+    midpoint = len(array) // 2  # O(1)
+    for i in range(0, midpoint):  # O(n)
+        print(array[i])  # O(1)
+    for _ in range(1000):  # O(n)
+        print('hi')  # O(1)
+
+'''
+O(1) + O(1) + (O(n) * O(1)) + (O(n) * O(1))
+O(1) + O(1) + O(n) + O(n)
+O(n)
+'''
 ```
 
 ### Do both of these functions have the same runtime? (Notice the difference between their inputs)
@@ -67,6 +73,9 @@ def make_item_pairs(items):
         for item_two in items:
             print(item_one, item_two)
 ```
+
+**No. Option A has a shorter runtime, because n in this scenario is used as a range rather than iterating through a list of items.**
+
 
 ## Objective challenge:
 
