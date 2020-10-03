@@ -101,6 +101,8 @@ Suppose your app has 16,384 users that are stored in a database (the users are s
 
 ![](https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
 
+![](https://github.com/andrewwhite5/CS-Unit-5-Sprint-3-Algorithms/blob/master/module1_Iterative-Sorting/Resources/module1_image2.png)
+
 **Bubble Sort**
 **What will the contents of the array below look like after each pass of the Bubble Sort algorithm?**
 
