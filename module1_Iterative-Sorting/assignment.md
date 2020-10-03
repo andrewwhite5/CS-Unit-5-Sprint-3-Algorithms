@@ -108,6 +108,8 @@ Suppose your app has 16,384 users that are stored in a database (the users are s
 
 ![](https://tk-assets.lambdaschool.com/37acef2d-38c3-4479-a7db-582fa68943e1_Resources23.png)
 
+![](https://github.com/andrewwhite5/CS-Unit-5-Sprint-3-Algorithms/blob/master/module1_Iterative-Sorting/Resources/module1_image3.png)
+
 **Define your own function that sorts the data “out-of-place” and mirrors the process we used for our “out-of-place” book sorting example. Compare this “out-of-place” selection sort to the “in-place” function that we defined together.**
 - What is different about it?
 - Which version do you think is better and why?
