@@ -52,7 +52,6 @@ def print_animal_triples():
             for animal_3 in animals:
                 print(f"{animal_1} - {animal_2} - {animal_3}")
 
-
 # Print a list of all possible animal triples
 def print_animal_triples_a():
         # O(n)
