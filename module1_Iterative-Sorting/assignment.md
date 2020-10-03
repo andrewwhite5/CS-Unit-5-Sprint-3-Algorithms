@@ -14,7 +14,7 @@ O(n)
 ```
 def foo(n):
     sq_root = int(math.sqrt(n))
-    for i in range(0, sq_root):
+    for i in range(0, sq_root):  # O(1)
         print(i)
 ```
 
@@ -22,10 +22,10 @@ def foo(n):
 ```
 def bar(x):
     sum = 0
-    for i in range(0, 1463):
+    for i in range(0, 1463):  # O(n)
         i += 1
-        for j in range(0, x):
-                for k in range(x, x + 15):
+        for j in range(0, x):  # O(n)
+                for k in range(x, x + 15):  # O(n)
                     sum += 1
 ```
 
