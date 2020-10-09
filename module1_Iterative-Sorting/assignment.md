@@ -82,11 +82,73 @@ def make_item_pairs(items):
 
 Suppose your app has 16,384 users that are stored in a database (the users are sorted alphabetically). Your app needs to search for a specific user and you use binary search.
 - What’s the maximum number of steps it would take? (Hint: using the logarithm operation is key.)
+    -
 - Time passes and now your app has exactly double the number of users. What’s the maximum number of steps now?
+    -
 - Try writing a Python function to perform a linear search on a set of data.
-- Try writing your own Python function to perform a binary search on a set of data. This will help you remember and internalize this algorithm much better if you do not refer to our example above in the process of writing your own. Make sure to use UPER as you approach this problem.
-- Can you rewrite your binary search function so it uses recursion?
+```
+# O(n)
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return True
 
+    return False
+```
+- Try writing your own Python function to perform a binary search on a set of data. This will help you remember and internalize this algorithm much better if you do not refer to our example above in the process of writing your own. Make sure to use UPER as you approach this problem.
+```
+# O(log n)
+def find_value_binary(arr, value):
+    first = 0
+    last = (len(arr) - 1)
+    found = False
+
+    while first <= last and not found:
+        # Find the middle of the data
+        middle = (first + last) // 2
+
+        if arr[middle] == value:
+            found = True
+
+        # Define new first/last and search for new middle
+        else:
+            # left case
+            if value < arr[middle]:
+                last = middle - 1
+            else:
+                # right case
+                # search the upper half
+                first = middle + 1
+
+    return found
+```
+- Can you rewrite your binary search function so it uses recursion?
+```
+# O(log n)
+def find_value_binary(arr, value):
+    first = 0
+    last = (len(arr) - 1)
+    found = False
+
+    while first <= last and not found:
+        # Find the middle of the data
+        middle = (first + last) // 2
+
+        if arr[middle] == value:
+            found = True
+
+        # Define new first/last and search for new middle
+        else:
+            # left case
+            if value < arr[middle]:
+                last = middle - 1
+            else:
+                # right case
+                # search the upper half
+                first = middle + 1
+
+    return found
+```
 
 ## Objective challenge:
 ### Selection Sort

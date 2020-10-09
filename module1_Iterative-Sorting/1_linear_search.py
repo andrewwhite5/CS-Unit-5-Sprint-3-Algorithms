@@ -44,6 +44,7 @@ Key Points
 - Key words: sorted, ordered
 """
 
+# O(log n)
 def find_value_binary(arr, value):
     first = 0
 
