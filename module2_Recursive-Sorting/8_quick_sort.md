@@ -9,7 +9,7 @@ What are the two main pieces (cases) of any recursive algorithm?
 
 ## Steps for Quick Sort
 
-1. Start by choosing a pivot 
+1. Start by choosing a pivot
    * First or last element is _easiest_
    * Middle, median, or random element usually performs _better_ (tends to split original data more evenly)
 2. Move all elements _smaller_ than pivot to its left-hand side. Move all elements _larger_ than pivot to its right-hand side.
@@ -69,7 +69,7 @@ def quicksort(data):
     return quicksort(left) + [pivot] + quicksort(right)
 ```
 
-This code does not sort _in-place_. That is, it makes new lists left and right and constructs the results from that. 
+This code does not sort _in-place_. That is, it makes new lists left and right and constructs the results from that.
 An _in-place_ sort would reuse the original list and keep additional allocation to a minimum.
 
 
@@ -171,7 +171,7 @@ def quick_sort_A( books, low, high ):
         books = quick_sort_A(books, low, pivot_index)
         # Quick Sort everything right of the pivot
         books = quick_sort_A(books, pivot_index+1, high)
-  
+
         return books
 ```
 
@@ -181,7 +181,7 @@ Because we exceed maximum recursion depth (999) allowed in Python's call stack w
 
 ```python
 # NOT done in place because for large inputs, we
-# exceed Python's maximum recursion depth with 
+# exceed Python's maximum recursion depth with
 # in-place Quick Sort
 def quick_sort( books ):
     stack = []
@@ -204,7 +204,7 @@ def quick_sort( books ):
             while len(current) > 0:
                 # if next element smaller than pivot, add to left arr
                 if current[0].genre < pivot.genre:
-                    # move to LHS 
+                    # move to LHS
                     left.append(current.pop(0))
                 # else if next element larger than pivot, add to right arr
                 elif current[0].genre > pivot.genre:
