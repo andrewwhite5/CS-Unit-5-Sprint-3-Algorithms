@@ -11,7 +11,7 @@ def sliding_window_max(nums, k):
     for i, n in enumerate(nums):
         while len(q) > 0 and n > q[-1]:
             q.pop()
-        
+
         q.append(n)
 
         # calc the window range
@@ -31,7 +31,7 @@ def sliding_window_max(nums, k):
     
 
 
-    
+
 
     # # Your code here
     # max_vals = [0 for _ in range(len(nums) - k + 1)]
@@ -42,7 +42,7 @@ def sliding_window_max(nums, k):
     #     for j in range(1, k):
     #         if nums[i + j] > current_elem:
     #             current_elem = nums[i + j]
-        
+
     #     max_vals[i] = current_elem
 
 
@@ -50,7 +50,7 @@ def sliding_window_max(nums, k):
 
 
 if __name__ == '__main__':
-    # Use the main function here to test out your implementation 
+    # Use the main function here to test out your implementation
     arr = [1, 3, -1, -3, 5, 3, 6, 7]
     k = 3
 
